@@ -18,3 +18,6 @@ Open it up, disconnect it from the switching board from the bottom(just pull it 
 disconnect the route pin (6nd from top on the right (dot is up left))
 pulling rst LOW (1th from top on the left (dot is up left))
 ![PCB](https://i.imgur.com/WENsvX6.jpg)
+
+In my case I had PCB with number WIFI-W6B 2PH119297A and for succesfull flash I must connect GPIO to ground and pin 6 of TUYA MCU to ground. 
+After that I was able to flash tasmota lite throught Tasmotiyzer.
